@@ -22,7 +22,7 @@
     </header>
 
     <main>
-        
+
        <section class="robbie">
             <div>
                 <h1 class="robbie__heading">Robbie Lens <br> Photographie</h1>
@@ -31,12 +31,31 @@
                     plus de 5 ans maintenant, j’exerce mon métier avec la passion
                     qui m’anime : capturer l’essence de chaque instant.
                 </p>
-                <a href="#contact" class="robbie__btn">UN PROJET ? ÉCRIVEZ-MOI</a>
+                <a href="#contact" class="robbie__btn cta">UN PROJET ? ÉCRIVEZ-MOI</a>
             </div>
             <img src="images/robbie-lens.png" alt="Portrait avec effet de la photographe Robbie Lens" />
         </section>
 
-        <section id="contact"></section>
+        <section id="contact">
+            <h2 class="contact__title">Parlons de votre projet</h2>
+            <form class="contact__form" method="get" action="">
+                <div class="contact__form-group">
+                    <div class="contact__form-column">
+                        <label class="contact__form-label" for="nom">Nom</label>
+                        <input class="contact__form-input" type="text" name="nom" id="nom" />
+                    </div>
+                    <div class="contact__form-column">
+                        <label class="contact__form-label" for="email">Email</label>
+                        <input class="contact__form-input" type="e-mail" name="email" id="email" />
+                    </div>
+                </div>
+                <label class="contact__form-label" for="message">Message</label>
+                <textarea class="contact__form-textarea" name="message" id="message" rows="10"></textarea>
+                <input class="contact__form-submit cta" type="submit" value="ENVOYER" />
+            </form>
+        </section>
+        
+        </section>
 
     </main>
 
