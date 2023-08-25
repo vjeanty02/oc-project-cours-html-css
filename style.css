@@ -107,6 +107,33 @@
 
 
 /*=============================================
+=            Section projects            =
+=============================================*/
+
+.projects {
+    background-color: white;
+    padding: 80px;
+}
+  
+.projects__title {
+    color: #242424;
+    text-align: center;
+    margin-bottom: 80px;
+}
+  
+.projects__row {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+/*=====  End of Section projects  ======*/
+
+
+
+/*=============================================
 =            Section contact            =
 =============================================*/
 
